@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+
+.container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  height: 100vh; /* Full viewport height */
+  padding : 20px 0;
+  overflow: auto; /* Allow scrolling if content exceeds viewport */
+}
+
+.giveHeight{
+  height: 100vh;
+}
+
+.testBox {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* width: 80%; */
+  /* max-width: 600px; */
+  /* text-align: center; */
+}
+
+.testBox button, .results button {
+  width: 120px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.testBox button:hover, .results button:hover {
+  background-color: black;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}
+
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  width: 100dvw;
+  align-items: center;
+  justify-content: center;
+  /* padding: 1rem; */
+  background-color: #f5f5f5;
+}
+
+.results {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.results h1 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.results span{
+  color: #555;
+  font-weight: lighter;
+}
+
+.results button{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.microphoneStatus {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin-bottom: 20px;
+  /* color: #555; */
+}
+
+.micOn {
+  color: green;
+}
+.micOff {
+  color: red;
+}
+
+.iconButton {
+  cursor: pointer;
+  font-size: 35px; /* Adjust icon size if needed */
+  margin: 0 15px; /* Adds horizontal spacing between icons */
+  padding-top: 7px; /* Adds padding above the icons */
+}
+
+.iconButtonsubmit {
+  cursor: pointer;
+  font-size: 38px; /* Adjust icon size if needed */
+  margin: 0 15px; /* Adds horizontal spacing between icons */
+  padding-top: 5px; /* Adds padding above the icons */
+}
+
+.recording {
+  color: green; /* Indicate recording */
+}
+
+.notRecording {
+  color: grey; /* Indicate not recording */
+}
+
+
+.recordingText {
+  font-family: 'Inter', sans-serif;
+  color: green;
+  font-weight: bold;
+  font-size: 16px; /* Adjust size as needed */
+}
