@@ -1,0 +1,33 @@
+# Node modules
+Jiveesha_Backend/node_modules/
+Jiveesha_Frontend/node_modules/
+
+# Environment files
+Jiveesha_Backend/.env
+Jiveesha_Frontend/.env
+
+# Logs
+Jiveesha_Backend/logs/
+Jiveesha_Backend/*.log
+Jiveesha_Frontend/logs/
+Jiveesha_Frontend/*.log
+
+# Build files
+Jiveesha_Frontend/build/
+Jiveesha_Frontend/dist/
+
+# Cache
+Jiveesha_Backend/.cache/
+Jiveesha_Frontend/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.tmp
