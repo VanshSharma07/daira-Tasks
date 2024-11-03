@@ -1,6 +1,0 @@
-# Ignore node_modules folders
-Jiveesha_Backend/node_modules/
-Jiveesha_Frontend/node_modules/
-
-# Ignore other common files
-*.log
